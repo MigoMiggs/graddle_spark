@@ -1,0 +1,191 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /opt/graddle-spark/build/classes/scala/test
+compile options:
+2 items
+0 -> -deprecation
+1 -> -unchecked
+javac options:
+9 items
+0 -> -source
+1 -> 1.8
+2 -> -target
+3 -> 1.8
+4 -> -d
+5 -> /opt/graddle-spark/build/classes/scala/test
+6 -> -g
+7 -> -proc:none
+8 -> -XDuseUnsharedTable=true
+compiler version:
+1 items
+0 -> 2.11.12
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+5 items
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> /opt/graddle-spark/build/classes/scala/test/org/miguelalvarado/miguelspark/FirstSparkAppTest$$anonfun$1.class
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> /opt/graddle-spark/build/classes/scala/test/org/miguelalvarado/miguelspark/FirstSparkAppTest$$anonfun$2.class
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> /opt/graddle-spark/build/classes/scala/test/org/miguelalvarado/miguelspark/FirstSparkAppTest.class
+/opt/graddle-spark/src/test/scala/Main.scala -> /opt/graddle-spark/build/classes/scala/test/org/miguelalvarado/miguelspark/Main$.class
+/opt/graddle-spark/src/test/scala/Main.scala -> /opt/graddle-spark/build/classes/scala/test/org/miguelalvarado/miguelspark/Main.class
+binary dependencies:
+8 items
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> /opt/graddle-spark/build/classes/scala/main/org/miguelalvarado/miguelspark/FirstSparkApp.class
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> /root/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-core_2.11/2.4.0/2eebc2356fa310b7cc0308b672b08cecfe85eb70/spark-core_2.11-2.4.0.jar
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> /root/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.12/bf5534e6fec3d665bd6419c952a929a8bdd4b591/scala-library-2.11.12.jar
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> /root/.gradle/caches/modules-2/files-2.1/org.scalactic/scalactic_2.11/3.0.1/3c444d143879dc172fa555cea08fd0de6fa2f34f/scalactic_2.11-3.0.1.jar
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> /root/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest_2.11/3.0.1/40a1842e7f0b915d87de1cb69f9c6962a65ee1fd/scalatest_2.11-3.0.1.jar
+/opt/graddle-spark/src/test/scala/Main.scala -> /opt/jdk1.8.0_192/jre/lib/rt.jar
+/opt/graddle-spark/src/test/scala/Main.scala -> /root/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.12/bf5534e6fec3d665bd6419c952a929a8bdd4b591/scala-library-2.11.12.jar
+/opt/graddle-spark/src/test/scala/Main.scala -> /root/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest_2.11/3.0.1/40a1842e7f0b915d87de1cb69f9c6962a65ee1fd/scalatest_2.11-3.0.1.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+5 items
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> org.miguelalvarado.miguelspark.FirstSparkAppTest
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> org.miguelalvarado.miguelspark.FirstSparkAppTest$$anonfun$1
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> org.miguelalvarado.miguelspark.FirstSparkAppTest$$anonfun$2
+/opt/graddle-spark/src/test/scala/Main.scala -> org.miguelalvarado.miguelspark.Main
+/opt/graddle-spark/src/test/scala/Main.scala -> org.miguelalvarado.miguelspark.Main$
+used names:
+72 items
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> <byname>
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> <init>
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> <repeated>
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> Any
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> BeforeAndAfterAll
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> FirstSparkApp
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> FirstSparkAppTest
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> FunSuite
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> Int
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> Position
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> Predef
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> SparkConf
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> SparkContext
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> String
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> Tag
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> Unit
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> apache
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> corejob
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> firstSparkApp
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> here
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> miguelalvarado
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> miguelspark
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> mycoolfunction
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> org
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> println
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> sc
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> sc_=
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> scala
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> scalactic
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> scalatest
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> setAppName
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> setMaster
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> source
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> spark
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> sparkConf
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> sparkConf_=
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> stop
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> test
+/opt/graddle-spark/src/test/scala/Main.scala -> <init>
+/opt/graddle-spark/src/test/scala/Main.scala -> <repeated>
+/opt/graddle-spark/src/test/scala/Main.scala -> Any
+/opt/graddle-spark/src/test/scala/Main.scala -> AnyRef
+/opt/graddle-spark/src/test/scala/Main.scala -> Array
+/opt/graddle-spark/src/test/scala/Main.scala -> Boolean
+/opt/graddle-spark/src/test/scala/Main.scala -> Class
+/opt/graddle-spark/src/test/scala/Main.scala -> ClassTag
+/opt/graddle-spark/src/test/scala/Main.scala -> Int
+/opt/graddle-spark/src/test/scala/Main.scala -> Main
+/opt/graddle-spark/src/test/scala/Main.scala -> Nothing
+/opt/graddle-spark/src/test/scala/Main.scala -> Object
+/opt/graddle-spark/src/test/scala/Main.scala -> Predef
+/opt/graddle-spark/src/test/scala/Main.scala -> Runner
+/opt/graddle-spark/src/test/scala/Main.scala -> String
+/opt/graddle-spark/src/test/scala/Main.scala -> System
+/opt/graddle-spark/src/test/scala/Main.scala -> T
+/opt/graddle-spark/src/test/scala/Main.scala -> Unit
+/opt/graddle-spark/src/test/scala/Main.scala -> _$7
+/opt/graddle-spark/src/test/scala/Main.scala -> apply
+/opt/graddle-spark/src/test/scala/Main.scala -> exit
+/opt/graddle-spark/src/test/scala/Main.scala -> java
+/opt/graddle-spark/src/test/scala/Main.scala -> lang
+/opt/graddle-spark/src/test/scala/Main.scala -> materializeClassTag
+/opt/graddle-spark/src/test/scala/Main.scala -> miguelalvarado
+/opt/graddle-spark/src/test/scala/Main.scala -> miguelspark
+/opt/graddle-spark/src/test/scala/Main.scala -> org
+/opt/graddle-spark/src/test/scala/Main.scala -> package
+/opt/graddle-spark/src/test/scala/Main.scala -> run
+/opt/graddle-spark/src/test/scala/Main.scala -> scala
+/opt/graddle-spark/src/test/scala/Main.scala -> scalatest
+/opt/graddle-spark/src/test/scala/Main.scala -> testResult
+/opt/graddle-spark/src/test/scala/Main.scala -> tools
+/opt/graddle-spark/src/test/scala/Main.scala -> unary_!
+product stamps:
+5 items
+/opt/graddle-spark/build/classes/scala/test/org/miguelalvarado/miguelspark/FirstSparkAppTest$$anonfun$1.class -> lastModified(1542005598000)
+/opt/graddle-spark/build/classes/scala/test/org/miguelalvarado/miguelspark/FirstSparkAppTest$$anonfun$2.class -> lastModified(1542005598000)
+/opt/graddle-spark/build/classes/scala/test/org/miguelalvarado/miguelspark/FirstSparkAppTest.class -> lastModified(1542005598000)
+/opt/graddle-spark/build/classes/scala/test/org/miguelalvarado/miguelspark/Main$.class -> lastModified(1542005290000)
+/opt/graddle-spark/build/classes/scala/test/org/miguelalvarado/miguelspark/Main.class -> lastModified(1542005290000)
+source stamps:
+2 items
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> hash(89e20538eb6c433e20c314837dcf69ffd7ecb109)
+/opt/graddle-spark/src/test/scala/Main.scala -> hash(b1327064347922565e72f3d78dedbf777d204f0b)
+binary stamps:
+6 items
+/opt/graddle-spark/build/classes/scala/main/org/miguelalvarado/miguelspark/FirstSparkApp.class -> lastModified(1542005485000)
+/opt/jdk1.8.0_192/jre/lib/rt.jar -> lastModified(1538834118000)
+/root/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-core_2.11/2.4.0/2eebc2356fa310b7cc0308b672b08cecfe85eb70/spark-core_2.11-2.4.0.jar -> lastModified(1542005163000)
+/root/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.12/bf5534e6fec3d665bd6419c952a929a8bdd4b591/scala-library-2.11.12.jar -> lastModified(1542005163000)
+/root/.gradle/caches/modules-2/files-2.1/org.scalactic/scalactic_2.11/3.0.1/3c444d143879dc172fa555cea08fd0de6fa2f34f/scalactic_2.11-3.0.1.jar -> lastModified(1542005283000)
+/root/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest_2.11/3.0.1/40a1842e7f0b915d87de1cb69f9c6962a65ee1fd/scalatest_2.11-3.0.1.jar -> lastModified(1542005283000)
+class names:
+6 items
+/opt/graddle-spark/build/classes/scala/main/org/miguelalvarado/miguelspark/FirstSparkApp.class -> org.miguelalvarado.miguelspark.FirstSparkApp
+/opt/jdk1.8.0_192/jre/lib/rt.jar -> java.lang.Object
+/root/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-core_2.11/2.4.0/2eebc2356fa310b7cc0308b672b08cecfe85eb70/spark-core_2.11-2.4.0.jar -> org.apache.spark.SparkContext$
+/root/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.12/bf5534e6fec3d665bd6419c952a929a8bdd4b591/scala-library-2.11.12.jar -> scala.Predef$
+/root/.gradle/caches/modules-2/files-2.1/org.scalactic/scalactic_2.11/3.0.1/3c444d143879dc172fa555cea08fd0de6fa2f34f/scalactic_2.11-3.0.1.jar -> org.scalactic.source.Position
+/root/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest_2.11/3.0.1/40a1842e7f0b915d87de1cb69f9c6962a65ee1fd/scalatest_2.11-3.0.1.jar -> org.scalatest.BeforeAndAfterAll
+internal apis:
+2 items
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwP8sN7QAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAJzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHB0F1F1dAAVdW5jb25zdHJhaW5lZEVxdWFsaXR5c3EAfgALxGmWi3QAEmNvbnZlcnRUb0VxdWFsaXplcnVxAH4ACQAAAGdzcQB+AAvOA8X5dAAGYXNzZXJ0c3EAfgAL//keQ3QAB3N1Y2NlZWRzcQB+AAu1ahkYdAAGbm90aWZ5c3EAfgALKDpOB3QAJmxvd1ByaW9yaXR5Q29udmVyc2lvbkNoZWNrZWRDb25zdHJhaW50c3EAfgALbl0AeXQAEEFzc2VydGlvbnNIZWxwZXJzcQB+AAv7ENXrdAAGY2FuY2Vsc3EAfgAL5n/DCnQABHRlc3RzcQB+AAstXj1UdAARZXhlY3V0ZSRkZWZhdWx0JDJzcQB+AAvbw+hEdAAJaW50ZXJjZXB0c3EAfgALWLIZkHQABGZhaWxzcQB+AAsRzWa0dAAEbmFtZXNxAH4AC6JH3Wp0ABRhc3NlcnREb2VzTm90Q29tcGlsZXNxAH4AC9wo9md0ABFleGVjdXRlJGRlZmF1bHQkNHNxAH4AC/hobDB0AAdleGVjdXRlc3EAfgALliX8V3QABHdhaXRzcQB+AAvLD4HcdAALdGVzdERhdGFGb3JzcQB+AAtxihOZdAATY3JlYXRlQ2F0Y2hSZXBvcnRlcnNxAH4ACw1RlOl0AAlzdHlsZU5hbWVzcQB+AAuVZad/dAANJGFzSW5zdGFuY2VPZnNxAH4ACzP2Hg50ABFleGVjdXRlJGRlZmF1bHQkM3NxAH4AC0XjLRV0AAljb25maWdNYXBzcQB+AAsX4ONpdAAGZXF1YWxzc3EAfgALnPzP5XQALGNvbnZlcnRFcXVpdmFsZW5jZVRvQVRvQkNvbnZlcnNpb25Db25zdHJhaW50c3EAfgAL8QccCXQAD2RlZmF1bHRFcXVhbGl0eXNxAH4AC5jJ3Jx0ACJjb252ZXJ0RXF1aXZhbGVuY2VUb0FUb0JDb25zdHJhaW50c3EAfgALICg0FXQABHRhZ3NzcQB+AAsU1w2AdAAMYXNJbnN0YW5jZU9mc3EAfgAL9RvIJnQABWFsZXJ0c3EAfgALnkAZAHQAA3J1bnNxAH4ACw4K5+J0AAZzY29wZXNzcQB+AAuy/8BPdAADcG9zc3EAfgALjZ8mpXQADWZpcnN0U3BhcmtBcHBzcQB+AAu4s5SudAAJYmVmb3JlQWxsc3EAfgALdn+bZXQADHN5bmNocm9uaXplZHNxAH4AC0Nu3fl0AA5hc3NlcnRDb21waWxlc3NxAH4AC2CXu1N0AAxhc3NlcnRUaHJvd3NzcQB+AAvw/OMIdAANJGlzSW5zdGFuY2VPZnNxAH4AC8OkVbd0AAR0cmFwc3EAfgALFvglV3QAFXRlc3REYXRhRm9yJGRlZmF1bHQkMnNxAH4ACxOO2ad0AAxhc3NlcnRSZXN1bHRzcQB+AAvWOEiNdAAEdGV4dHNxAH4AC28+yR50ACxjb252ZXJ0RXF1aXZhbGVuY2VUb0JUb0FDb252ZXJzaW9uQ29uc3RyYWludHNxAH4AC3yXOZR0ABFleGVjdXRlJGRlZmF1bHQkN3NxAH4ACyodQyN0ABV0eXBlQ2hlY2tlZENvbnN0cmFpbnRzcQB+AAtITh4wdAADIT09c3EAfgAL2xFpk3QABGluZm9zcQB+AAt+rw59dAAJbm90aWZ5QWxsc3EAfgALH/tGzHQAC3dpdGhGaXh0dXJlc3EAfgAL7s/+93QAB3J1blRlc3RzcQB+AAtTPj2OdAAMaXNJbnN0YW5jZU9mc3EAfgAL0+oXVHQACHdpdGhDbHVlc3EAfgAL2+iJdXQAEGFzc2VydGlvbnNIZWxwZXJzcQB+AAu4u+gFdAARZXhlY3V0ZSRkZWZhdWx0JDZzcQB+AAsj8XLpdAAPYXNzZXJ0VHlwZUVycm9yc3EAfgAL2CdzDXQABm1hcmt1cHNxAH4AC9E8N1N0AAhsZWZ0U2lkZXNxAH4AC8zR/7J0AAY8aW5pdD5zcQB+AAsb+/uudAALbWFjcm9Bc3N1bWVzcQB+AAs97ArEdAAPcnVuTmVzdGVkU3VpdGVzc3EAfgALf4UM8nQABWFwcGx5c3EAfgAL3+vyvnQACUVxdWFsaXplcnNxAH4AC4G7tsJ0ABtuZXdBc3NlcnRpb25GYWlsZWRFeGNlcHRpb25zcQB+AAsTBTbddAAEbm90ZXNxAH4AC0Gixel0AAI9PXNxAH4AC2bP4lh0AAVjbG9uZXNxAH4ACx7zx6J0ABFGaXJzdFNwYXJrQXBwVGVzdHNxAH4AC8FbmGd0AAxuZXN0ZWRTdWl0ZXNzcQB+AAvGE4TPdAAGYXNzdW1lc3EAfgALFrw1MnQABiRpbml0JHNxAH4ACzh3DdJ0ACBsb3dQcmlvcml0eVR5cGVDaGVja2VkQ29uc3RyYWludHNxAH4AC2CaZwN0AAxyZWdpc3RlclRlc3RzcQB+AAt+YkT/dAARZXhlY3V0ZSRkZWZhdWx0JDVzcQB+AAteJyE6dAADPT09c3EAfgALyZ6R/nQAGG5ld1Rlc3RDYW5jZWxlZEV4Y2VwdGlvbnNxAH4ACxV0kb50AAh0b1N0cmluZ3NxAH4AC6i8G4V0AAl0ZXN0TmFtZXNzcQB+AAvzKiiqdAAPeWVPbGRlVGVzdE5hbWVzc3EAfgALCZFKiXQAEWV4ZWN1dGUkZGVmYXVsdCQxc3EAfgALuz0Ve3QAAiE9c3EAfgALto8NqnQAMmludm9rZUJlZm9yZUFsbEFuZEFmdGVyQWxsRXZlbklmTm9UZXN0c0FyZUV4cGVjdGVkc3EAfgALbdS333QACGdldENsYXNzc3EAfgALXefbBHQAE3JlZ2lzdGVySWdub3JlZFRlc3RzcQB+AAs9t+WPdAAIdGVzdHNGb3JzcQB+AAs4pQEgdAAIcnVuVGVzdHNzcQB+AAvtAeZ4dAARcGVuZGluZ1VudGlsRml4ZWRzcQB+AAvA0g7AdAAIYWZ0ZXJBbGxzcQB+AAs8eDgDdAARZXhwZWN0ZWRUZXN0Q291bnRzcQB+AAvBCGGjdAAIcmVydW5uZXJzcQB+AAsj8KEbdAAiY29udmVydEVxdWl2YWxlbmNlVG9CVG9BQ29uc3RyYWludHNxAH4ACynBufR0AAJuZXNxAH4AC8VrXmd0ABFDaGVja2luZ0VxdWFsaXplcnNxAH4ACy6Y18F0AAdwZW5kaW5nc3EAfgALmvS2PnQABmlnbm9yZXNxAH4AC5E0vKN0AAttYWNyb0Fzc2VydHNxAH4AC/8JJId0AAJlcXNxAH4AC6ZnH7V0ABpjb252ZXJ0VG9DaGVja2luZ0VxdWFsaXplcnNxAH4ACx1iRcZ0AAlOb0FyZ1Rlc3RzcQB+AAvlyYjvdAACIyNzcQB+AAvS1HRtdAAIZmluYWxpemVzcQB+AAspX5cSdAAbY29udmVyc2lvbkNoZWNrZWRDb25zdHJhaW50c3EAfgALyJgEoXQACGhhc2hDb2Rlc3EAfgALiwcF1HQAB3N1aXRlSWRzcQB+AAu3Xq77dAAJc3VpdGVOYW1lc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4A6XhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AAx4cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAMG9yZy5taWd1ZWxhbHZhcmFkby5taWd1ZWxzcGFyay5GaXJzdFNwYXJrQXBwVGVzdHVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAnQAEHNjYWxhLmRlcHJlY2F0ZWR0ACdzY2FsYS5yZWZsZWN0Lm1hY3Jvcy5pbnRlcm5hbC5tYWNyb0ltcGxzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4BA3NyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgDpTAAJaW5oZXJpdGVkcQB+AOlMAAdwYXJlbnRzcQB+AOl4cQB+AQhzcQB+AQN1cQB+AOQAAAAAc3EAfgEDdXEAfgDkAAAAAHNxAH4BA3VyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAASc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgAMTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4BB3QAEUJlZm9yZUFuZEFmdGVyQWxsc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgEHc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AANvcmdzcQB+ASB0AAlzY2FsYXRlc3RzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4BIXNxAH4BFHQAClN1aXRlTWl4aW5xAH4BGnNxAH4BFHQACEZ1blN1aXRlcQB+ARpzcQB+ARR0AAxGdW5TdWl0ZUxpa2VxAH4BGnNxAH4BFHQAC0RvY3VtZW50aW5ncQB+ARpzcQB+ARR0AAhBbGVydGluZ3EAfgEac3EAfgEUdAAJTm90aWZ5aW5ncQB+ARpzcQB+ARR0AAlJbmZvcm1pbmdxAH4BGnNxAH4BFHQAEFRlc3RSZWdpc3RyYXRpb25xAH4BGnNxAH4BFHQACVRlc3RTdWl0ZXEAfgEac3EAfgEUdAAFU3VpdGVxAH4BGnNxAH4BFHQADFNlcmlhbGl6YWJsZXNxAH4BGHNxAH4BG3VxAH4BHgAAAAJzcQB+ASB0AAVzY2FsYXEAfgEnc3EAfgEUcQB+AT1zcQB+ARhzcQB+ARt1cQB+AR4AAAADc3EAfgEgdAAEamF2YXNxAH4BIHQAAmlvcQB+ASdzcQB+ARR0AApBc3NlcnRpb25zcQB+ARpzcQB+ARR0AAxUcmlwbGVFcXVhbHNzcQB+ARhzcQB+ARt1cQB+AR4AAAADc3EAfgEgdAADb3Jnc3EAfgEgdAAJc2NhbGFjdGljcQB+ASdzcQB+ARR0ABNUcmlwbGVFcXVhbHNTdXBwb3J0cQB+AU9zcQB+ARR0AAZPYmplY3RzcQB+ARhzcQB+ARt1cQB+AR4AAAADc3EAfgEgcQB+AUhzcQB+ASB0AARsYW5ncQB+ASdzcQB+ARR0AANBbnlxAH4BPnVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAADc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AAx4cHQAEm9yZy5taWd1ZWxhbHZhcmFkb3NxAH4BZHQAHm9yZy5taWd1ZWxhbHZhcmFkby5taWd1ZWxzcGFya3NxAH4BZHQAA29yZ3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZwayF9d1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AAxMAA9zb3VyY2VEaXJlY3RvcnlxAH4ADHhwdAArL29wdC9ncmFkZGxlLXNwYXJrL2J1aWxkL2NsYXNzZXMvc2NhbGEvdGVzdHQAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFIniBTjrbEM+IMMUg33Paf/X7LEJ
+/opt/graddle-spark/src/test/scala/Main.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwQMSE/gAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAVc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwpxT3tHQABm5vdGlmeXNxAH4ADJt97jl0AAR3YWl0c3EAfgAMOS0xy3QADSRhc0luc3RhbmNlT2ZzcQB+AAwGDs4mdAAGZXF1YWxzc3EAfgAM/3m/nnQADGFzSW5zdGFuY2VPZnNxAH4ADLondJ50AAxzeW5jaHJvbml6ZWRzcQB+AAwgVmnYdAANJGlzSW5zdGFuY2VPZnNxAH4ADCkd8a50AARtYWluc3EAfgAM//gLQXQACW5vdGlmeUFsbHNxAH4ADA7gatd0AAxpc0luc3RhbmNlT2ZzcQB+AAyGRB7edAACPT1zcQB+AAxUjKgXdAAFY2xvbmVzcQB+AAwNuB5EdAAETWFpbnNxAH4ADHXxbER0AAh0b1N0cmluZ3NxAH4ADLY5wrZ0AAIhPXNxAH4ADCO0nAB0AAhnZXRDbGFzc3NxAH4ADDM5aUx0AAJuZXNxAH4ADCE0RSp0AAJlcXNxAH4ADHq5UOh0AAIjI3NxAH4ADMgY3el0AAhmaW5hbGl6ZXNxAH4ADCafWZ90AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ACNvcmcubWlndWVsYWx2YXJhZG8ubWlndWVsc3BhcmsuTWFpbnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AWXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBBTAAJaW5oZXJpdGVkcQB+AEFMAAdwYXJlbnRzcQB+AEF4cQB+AF5zcQB+AFl1cQB+ADwAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AEJxAH4AS3VxAH4ATAAAAABzcQB+AE4AcQB+AB11cQB+AFEAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AXXQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AF1zcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AHl1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgBmeHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgBUdAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgBtWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBdc3EAfgBsdAAFQXJyYXlxAH4AcnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgBsdAAGU3RyaW5nc3EAfgBwc3EAfgBzdXEAfgB2AAAAA3NxAH4AeHQABGphdmFzcQB+AHh0AARsYW5ncQB+AH1zcQB+AFl1cQB+ADwAAAAAc3EAfgBZdXEAfgCRAAAAAnNxAH4AbHQABk9iamVjdHEAfgCVc3EAfgBsdAADQW55cQB+AHJ1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAA3NyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0ABJvcmcubWlndWVsYWx2YXJhZG9zcQB+AKZ0AB5vcmcubWlndWVsYWx2YXJhZG8ubWlndWVsc3BhcmtzcQB+AKZ0AANvcmdzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAWcGrWOAdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAKy9vcHQvZ3JhZGRsZS1zcGFyay9idWlsZC9jbGFzc2VzL3NjYWxhL3Rlc3R0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSxMnBkNHkiVl5y89eN7b93fSBPCw==
+external apis:
+0 items
+source infos:
+2 items
+/opt/graddle-spark/src/test/scala/FirstSparkAppTest.scala -> 
+AAAAAAAAAAA=
+/opt/graddle-spark/src/test/scala/Main.scala -> 
+AAAAAAAAAAA=
+compilations:
+3 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZwapwY11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUS9Vc2Vycy9taWd1ZWxhbHZhcmFkby9Db2RpbmcvU3BhcmtQcm9qZWN0cy9ncmFkZGxlLXNwYXJrL2J1aWxkL2NsYXNzZXMvc2NhbGEvdGVzdHQAAS8=
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZwatY4B1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAKy9vcHQvZ3JhZGRsZS1zcGFyay9idWlsZC9jbGFzc2VzL3NjYWxhL3Rlc3R0AAEv
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABZwayF9d1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAKy9vcHQvZ3JhZGRsZS1zcGFyay9idWlsZC9jbGFzc2VzL3NjYWxhL3Rlc3R0AAEv

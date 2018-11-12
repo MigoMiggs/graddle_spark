@@ -1,0 +1,20 @@
+products:
+   src/main/scala/FirstSparkApp.scala -> build/classes/scala/main/org/miguelalvarado/miguelspark/FirstSparkApp$$anonfun$corejob$1.class
+   src/main/scala/FirstSparkApp.scala -> build/classes/scala/main/org/miguelalvarado/miguelspark/FirstSparkApp.class
+   src/main/scala/FirstSparkAppMain.scala -> build/classes/scala/main/org/miguelalvarado/miguelspark/FirstSparkAppMain$.class
+   src/main/scala/FirstSparkAppMain.scala -> build/classes/scala/main/org/miguelalvarado/miguelspark/FirstSparkAppMain.class
+binary dependencies:
+   src/main/scala/FirstSparkApp.scala -> /opt/jdk1.8.0_192/jre/lib/rt.jar
+   src/main/scala/FirstSparkApp.scala -> /root/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-core_2.11/2.4.0/2eebc2356fa310b7cc0308b672b08cecfe85eb70/spark-core_2.11-2.4.0.jar
+   src/main/scala/FirstSparkApp.scala -> /root/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.12/bf5534e6fec3d665bd6419c952a929a8bdd4b591/scala-library-2.11.12.jar
+   src/main/scala/FirstSparkAppMain.scala -> /opt/jdk1.8.0_192/jre/lib/rt.jar
+   src/main/scala/FirstSparkAppMain.scala -> /root/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-core_2.11/2.4.0/2eebc2356fa310b7cc0308b672b08cecfe85eb70/spark-core_2.11-2.4.0.jar
+   src/main/scala/FirstSparkAppMain.scala -> /root/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.12/bf5534e6fec3d665bd6419c952a929a8bdd4b591/scala-library-2.11.12.jar
+source dependencies:
+   src/main/scala/FirstSparkAppMain.scala -> src/main/scala/FirstSparkApp.scala
+external dependencies:
+class names:
+   src/main/scala/FirstSparkApp.scala -> org.miguelalvarado.miguelspark.FirstSparkApp
+   src/main/scala/FirstSparkApp.scala -> org.miguelalvarado.miguelspark.FirstSparkApp$$anonfun$corejob$1
+   src/main/scala/FirstSparkAppMain.scala -> org.miguelalvarado.miguelspark.FirstSparkAppMain
+   src/main/scala/FirstSparkAppMain.scala -> org.miguelalvarado.miguelspark.FirstSparkAppMain$

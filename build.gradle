@@ -1,0 +1,105 @@
+plugins {
+    id 'java'
+}
+
+apply plugin: 'scala'
+
+group 'org.miguelalvarado.spark'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+configurations {
+    provided
+    compile.extendsFrom provided
+}
+
+jar {
+    dependsOn configurations.runtime
+    from {
+        (configurations.runtime - configurations.provided).collect {
+            it.isDirectory() ? it : zipTree(it)
+        }
+    } {
+        exclude "META-INF/*.SF"
+        exclude "META-INF/*.DSA"
+        exclude "META-INF/*.RSA"
+    }
+}
+
+task docs(type: ScalaDoc) {
+    source = sourceSets.main.allScala
+}
+
+task docsJar(type: Jar, dependsOn: docs) {
+    classifier = 'javadoc'
+    from docs.destinationDir
+}
+
+task sourcesJar(type: Jar) {
+    classifier = 'sources'
+    from sourceSets.main.allSource
+}
+
+
+
+task testJar(type: Jar) {
+    classifier = 'tests'
+    from sourceSets.test.output
+}
+
+task startTestEnv(overwrite: true, type: Exec) {
+    executable = './test-environment.sh'
+    args = ["start"]
+}
+
+task stopTestEnv(overwrite: true, type: Exec) {
+    executable = './test-environment.sh'
+    args = ["stop"]
+}
+
+// create an Exec task to test code via spark-submit
+task test(overwrite: true, type: Exec, dependsOn: [jar, testJar]) {
+    executable = 'spark-submit'
+    args = [
+            //the --packages flag allows us to place our dependencies on the path
+            "--packages","org.scalatest:scalatest_2.11:3.0.1",
+            //the --jars flag allows us to place our code on the path
+            "--jars","/opt/graddle-spark/build/libs/graddle-spark-1.0.jar",
+            "--class","org.miguelalvarado.miguelspark.Main",
+            "build/libs/graddle-spark-1.0-tests.jar"
+    ]
+}
+
+sourceSets {
+    main { compileClasspath += configurations.provided }
+    test {
+        compileClasspath += configurations.provided
+        runtimeClasspath += configurations.provided
+    }
+    scoverage { compileClasspath += configurations.provided }
+    testScoverage { compileClasspath += configurations.provided }
+}
+
+artifacts {
+    archives docsJar, testJar, sourcesJar
+}
+
+dependencies {
+    testCompile 'org.scalatest:scalatest_2.11:3.0.1'
+    testRuntime 'org.pegdown:pegdown:1.4.2'
+
+    // https://mvnrepository.com/artifact/org.scala-lang/scala-library
+    compile group: 'org.scala-lang', name: 'scala-library', version: '2.11.1'
+
+
+    // https://mvnrepository.com/artifact/org.apache.spark/spark-core
+    compile group: 'org.apache.spark', name: 'spark-core_2.11', version: '2.4.0'
+
+
+}

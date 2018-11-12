@@ -1,0 +1,23 @@
+products:
+   src/test/scala/FirstSparkAppTest.scala -> build/classes/scala/test/org/miguelalvarado/miguelspark/FirstSparkAppTest$$anonfun$1.class
+   src/test/scala/FirstSparkAppTest.scala -> build/classes/scala/test/org/miguelalvarado/miguelspark/FirstSparkAppTest$$anonfun$2.class
+   src/test/scala/FirstSparkAppTest.scala -> build/classes/scala/test/org/miguelalvarado/miguelspark/FirstSparkAppTest.class
+   src/test/scala/Main.scala -> build/classes/scala/test/org/miguelalvarado/miguelspark/Main$.class
+   src/test/scala/Main.scala -> build/classes/scala/test/org/miguelalvarado/miguelspark/Main.class
+binary dependencies:
+   src/test/scala/FirstSparkAppTest.scala -> build/classes/scala/main/org/miguelalvarado/miguelspark/FirstSparkApp.class
+   src/test/scala/FirstSparkAppTest.scala -> /root/.gradle/caches/modules-2/files-2.1/org.apache.spark/spark-core_2.11/2.4.0/2eebc2356fa310b7cc0308b672b08cecfe85eb70/spark-core_2.11-2.4.0.jar
+   src/test/scala/FirstSparkAppTest.scala -> /root/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.12/bf5534e6fec3d665bd6419c952a929a8bdd4b591/scala-library-2.11.12.jar
+   src/test/scala/FirstSparkAppTest.scala -> /root/.gradle/caches/modules-2/files-2.1/org.scalactic/scalactic_2.11/3.0.1/3c444d143879dc172fa555cea08fd0de6fa2f34f/scalactic_2.11-3.0.1.jar
+   src/test/scala/FirstSparkAppTest.scala -> /root/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest_2.11/3.0.1/40a1842e7f0b915d87de1cb69f9c6962a65ee1fd/scalatest_2.11-3.0.1.jar
+   src/test/scala/Main.scala -> /opt/jdk1.8.0_192/jre/lib/rt.jar
+   src/test/scala/Main.scala -> /root/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.12/bf5534e6fec3d665bd6419c952a929a8bdd4b591/scala-library-2.11.12.jar
+   src/test/scala/Main.scala -> /root/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest_2.11/3.0.1/40a1842e7f0b915d87de1cb69f9c6962a65ee1fd/scalatest_2.11-3.0.1.jar
+source dependencies:
+external dependencies:
+class names:
+   src/test/scala/FirstSparkAppTest.scala -> org.miguelalvarado.miguelspark.FirstSparkAppTest
+   src/test/scala/FirstSparkAppTest.scala -> org.miguelalvarado.miguelspark.FirstSparkAppTest$$anonfun$1
+   src/test/scala/FirstSparkAppTest.scala -> org.miguelalvarado.miguelspark.FirstSparkAppTest$$anonfun$2
+   src/test/scala/Main.scala -> org.miguelalvarado.miguelspark.Main
+   src/test/scala/Main.scala -> org.miguelalvarado.miguelspark.Main$
