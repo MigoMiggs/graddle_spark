@@ -16,3 +16,8 @@ How to try it out:
 2. Run ./test-environment.sh to launch the Docker container with Spark
 3. From the bash command line inside the container, run gradlew test, this will run the tests inside the Spark cluster
 
+This whole idea is inspired from:
+
+https://uncharted.software/blog/continuous-integration-with-apache-spark/
+
+https://www.youtube.com/watch?v=NgQM_dppQxU
